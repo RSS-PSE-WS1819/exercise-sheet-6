@@ -6,21 +6,20 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Direction;
 /**
  * Beschreiben Sie hier die Klasse CustomHamsterGame.
  * 
- * @author (Ihr Name) 
+ * @author (Ihr Name)
  * @version (eine Versionsnummer oder ein Datum)
  */
-public class CustomHamsterGame extends HamsterGame{
+public class CustomHamsterGame extends HamsterGame {
 
-    private static final String TERRITORY_EMPTY = "territories/empty.ter";
+	private static final String TERRITORY_EMPTY = "territories/empty.ter";
 
-    @Override
-    protected void run(){
-    }
-    
+	@Override
+	protected void run() {
+	}
 
 	// ignore
 	public static void main(String[] args) {
-		(new CustomHamsterGame()).run();
+		(new CustomHamsterGame()).testGame();
 	}
 
 }

@@ -39,7 +39,7 @@ public class LoopingPaule extends HamsterGame {
 
 	// ignore
 	public static void main(String[] args) {
-		(new LoopingPaule()).run();
+		(new LoopingPaule()).testGame();
 	}
 
 }

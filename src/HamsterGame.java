@@ -32,4 +32,13 @@ public class HamsterGame extends SimpleHamsterGame {
 		territory = game.getTerritory();
 	}
 
+	protected final void testGame() {
+		try {
+			this.run();
+		} catch (final RuntimeException e) {
+			this.game.getInputInterface().showAlert(e);
+		}
+		game.stopGame();
+	}
+
 }

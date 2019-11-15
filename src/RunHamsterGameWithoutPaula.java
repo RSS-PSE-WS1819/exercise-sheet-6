@@ -6,7 +6,7 @@ public class RunHamsterGameWithoutPaula {
     
 	// ignore
 	public static void main(String[] args) {
-		new WithOrWithoutPaulaHamsterGame(false);
+		(new WithOrWithoutPaulaHamsterGame(false)).testGame();
 	}
 	
 }
