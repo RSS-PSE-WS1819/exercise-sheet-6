@@ -19,7 +19,7 @@ public class LoopingPaule extends HamsterGame {
 	}
 
 	@Override
-	protected void run() {
+	void run() {
 		// Your code for testing should be here
 		// For example, for walking two steps:
 		// this.multiMove(2);

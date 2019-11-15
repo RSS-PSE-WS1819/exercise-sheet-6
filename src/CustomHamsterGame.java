@@ -11,10 +11,10 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Direction;
  */
 public class CustomHamsterGame extends HamsterGame {
 
-	private static final String TERRITORY_EMPTY = "territories/empty.ter";
+	static String TERRITORY_EMPTY = "territories/empty.ter";
 
 	@Override
-	protected void run() {
+	void run() {
 	}
 
 	// ignore

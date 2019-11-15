@@ -13,7 +13,7 @@ import de.unistuttgart.iste.rss.oo.hamstersimulator.external.model.Territory;
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class HamsterGame extends SimpleHamsterGame {
-	protected final Territory territory;
+	Territory territory;
 
 	HamsterGame(String territoryPath) {
 		File terFile = new File(territoryPath);
@@ -32,7 +32,7 @@ public class HamsterGame extends SimpleHamsterGame {
 		territory = game.getTerritory();
 	}
 
-	protected final void testGame() {
+	void testGame() {
 		try {
 			this.run();
 		} catch (final RuntimeException e) {
